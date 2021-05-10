@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="og:title" property="og:title" content="Regie's Birthday Countdown">
+<meta name="description" content="A little surprise for Regie when the timer hits 0">
+<meta property="og:image" content="https://raw.githubusercontent.com/rapsamaniego27/birthday-regie/master/images/regie-bday.JPG">
+<meta property="og:url" content="https://birthday-regie.netlify.app/">
+<link rel="shortcut icon" href="#">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+  href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+  rel="stylesheet">
+
+  <title>Regie's Birthday Countdown</title>
+
+  <!-- Row Styles -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <h3 class="cake meta--hide"><i class="fas fa-birthday-cake fa-3x cake"></i></h3>
+    <h1 id="pageTitle">What's Up Regie!</h1>
+    <h3 class="announcement">
+       A little surprise awaits when the timer hits the last second on May 15
+    </h3>
+    <!-- Row Countdown Timer -->
+    <!-- Days -->
+    <div class="deadline" id="deadline">
+      <div class="deadline-format">
+        <div class="deadline-format__wrapper">
+          <h4 class="days">--</h4>
+          <span class="deadline-unit">days</span>
+        </div>
+      </div>
+    
+      <!-- Hours -->
+      <div class="deadline-format">
+        <div class="deadline-format__wrapper">
+          <h4 class="hours">--</h4>
+          <span class="deadline-unit">hours</span>
+        </div>
+      </div>
+    
+      <!-- Minutes -->
+      <div class="deadline-format">
+        <div class="deadline-format__wrapper">
+          <h4 class="mins">--</h4>
+          <span class="deadline-unit">mins</span>
+        </div>
+      </div>
+    
+      <!-- Seconds -->
+      <div class="deadline-format">
+        <div class="deadline-format__wrapper">
+          <h4 class="secs">--</h4>
+          <span class="deadline-unit">secs</span>
+        </div>
+      </div>
+    </div>
+    <h3 class="deadline-meta">
+      days before your Birthday!
+    </h3>
+    <!-- End Countdown Timer -->
+
+    <div class="date-poem meta--hide">
+      <p class="date-poem__para">
+        Another Birthday to celebrate this year <br>
+        Another cake to slice, let's have a good cheer <br>
+        May you have problems that dissappear <br>
+        Keep moving forward and have nothing to fear
+      </p>
+      <p class="date-poem__para">
+        You're now 24, I hope I'm not wrong<br>
+        If I am, your nose might get long 🤣<br>
+        Click the button, so we can sing a song<br>
+        Happy Birthday Regie, keep going strong
+      </p>
+      <button class="date-poem__celebrate" id="btnCelebrate">Click to Celebrate! &nbsp;<i class="fas fa-play"></i></button>
+
+      <button class="date-poem__stop meta--hide" id="btnStop">Stop Song! &nbsp;<i class="fas fa-stop"></i></button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer__social-media-links">
+      <a href="https://www.facebook.com/ralph.m.esteva/" class="social-media" target="_blank"><i
+          class="fab fa-facebook-f"></i></a>
+      <a href="mailto:rapsamaniego27@gmail.com?subject=Greetings Ralph" class="social-media" target="_blank"><i
+          class="fas fa-envelope"></i></a>
+      <a href="https://twitter.com/rapunk27" class="social-media"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="footer-texts">Coded by yours truly Rap Esteva &copy; 2021</p>
+  </footer>
+
+
+  <!-- Row Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"
+    integrity="sha512-L6Z/YtIPQ7eU3BProP34WGU5yIRk7tNHk7vaC2dB1Vy1atz6wl9mCkTPPZ2Rn1qPr+vY2mZ9odZLdGYuaBk7dQ=="
+    crossorigin="anonymous"></script>
+  <script src="./js/declarations.js" defer></script>
+  <script src="./js/deadline.js" defer></script>
+  <script src="./js/app.js" defer></script>
+</body>
+</html>
+
+
+
